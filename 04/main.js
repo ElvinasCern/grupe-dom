@@ -7,4 +7,4 @@ const liDOM = document.querySelectorAll('li');
 //    darzove.innerText = 'Israuta darzove';
 //};
 
-liDOM.forEach(i => i.innerText = 'Israuta darzove' );
+liDOM.forEach(i => i.innerText = 'Israuta darzovee' );
