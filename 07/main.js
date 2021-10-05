@@ -14,7 +14,7 @@ pliusDOM.addEventListener('click' , function(){
 });
 
 resetDOM.addEventListener('click' , function(){
-    numberDOM.innerText = countNumberDom= 0;
+    numberDOM.innerText = countNumberDom = 0;
 });
 
 
