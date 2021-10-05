@@ -1,23 +1,20 @@
-const minusDOM = document.querySelector('.minus');
-const pliusDOM = document.querySelector('.plus');
-const resetDOM = document.querySelector('.reset');
-const numberDOM = document.querySelector('.number');
+const formDOM = document.querySelector('form');
+const resetDOM = formDOM.querySelector('.reset');
+const minusDOM = formDOM.querySelector('.minus');
+const plusDOM = formDOM.querySelector('.plus');
+const numberDOM = formDOM.querySelector('.number');
 
-let countNumberDom = 0;
+let counter = 0;
 
-minusDOM.addEventListener('click' , function(){
-    numberDOM.innerText = countNumberDom--;
+minusDOM.addEventListener('click', function () {
+    numberDOM.innerText = --counter;
 });
 
-pliusDOM.addEventListener('click' , function(){
-    numberDOM.innerText = countNumberDom++;
+plusDOM.addEventListener('click', function () {
+    numberDOM.innerText = ++counter;
 });
 
-resetDOM.addEventListener('click' , function(){
-    numberDOM.innerText = countNumberDom = 0;
+resetDOM.addEventListener('click', function () {
+    counter = 0;
+    numberDOM.innerText = counter;
 });
-
-
-
-
-
