@@ -20,6 +20,7 @@ function dishesDrinks() {
 
 }
 
+
 submitBtnDOM.addEventListener('click', function (event) {
     event.preventDefault();
     const name = inputNameDOM.value;
